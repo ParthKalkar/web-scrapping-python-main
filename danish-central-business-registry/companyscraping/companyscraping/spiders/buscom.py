@@ -25,7 +25,6 @@ class BuscomSpider(scrapy.Spider):
 
         next_page = 'https://datacvr.virk.dk/data/visninger?branche=&language=en-gb&ophoert=null&oprettet=null&page=' + str(BuscomSpider.page_number)+ '&soeg=&type=undefined'
 
-        if BuscomSpider.count < 30:
+        if BuscomSpider.page_number < 100:
             BuscomSpider.page_number += 1
-            BuscomSpider.count += 1
             yield response.follow(next_page, callback=self.parse)
