@@ -27,5 +27,9 @@
 
 ## Output
 1. Sample output during testing can be found in the item.csv and item.json file
-2. Output from MongoDB can be found below
+2. Output from MongoDB can be found in the images section
+
+
+
+
 
