@@ -64,8 +64,8 @@ PROXY_POOL_ENABLED = True
 #}
 DOWNLOADER_MIDDLEWARES = {
     # ...
-    'scrapy-proxy_pool.middlewares.ProxyPoolMiddleware':610,
-    'scrapy-proxy_pool.middlewares.BanDetectionMiddleware':620,
+    'scrapy_proxy_pool.middlewares.ProxyPoolMiddleware':610,
+    'scrapy_proxy_pool.middlewares.BanDetectionMiddleware':620,
     # ...
 }
 # Configure item pipelines
