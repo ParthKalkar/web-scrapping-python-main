@@ -28,4 +28,14 @@
 ## Output
 1. Sample output during testing can be found in the item.csv and item.json file
 2. Output from MongoDB can be found below
+x-special/nautilus-clipboard
+copy
+file:///home/parth/Desktop/stored-data.png
+
+x-special/nautilus-clipboard
+copy
+file:///home/parth/Desktop/compass-screen.png
+
+
+
 
